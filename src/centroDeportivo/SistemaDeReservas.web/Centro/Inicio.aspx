@@ -7,7 +7,7 @@
     <br />
     <br />
 &nbsp;&nbsp;&nbsp;
-    <asp:LinkButton ID="lnkArticulos" runat="server" OnClick="lnkArticulos_Click" PostBackUrl="~/Centro/Articulos.aspx">Articulos</asp:LinkButton>
+    <asp:LinkButton ID="lnkArticulos" runat="server" PostBackUrl="~/Centro/Articulos.aspx">Articulos</asp:LinkButton>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:LinkButton ID="lnkSocios" runat="server" PostBackUrl="~/Centro/Socios.aspx">Socios</asp:LinkButton>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

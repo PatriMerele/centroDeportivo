@@ -10,6 +10,9 @@
     <br />
     <asp:GridView ID="grdReservas" runat="server">
     </asp:GridView>
+    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="btnVolver" runat="server" PostBackUrl="~/Centro/Inicio.aspx" Text="Volver" />
 </form>
 
 

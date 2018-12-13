@@ -8,8 +8,11 @@
     <asp:LinkButton ID="lnkInstalaciones" runat="server" PostBackUrl="~/Centro/NuevaInstalacion.aspx">Nueva Instalacion</asp:LinkButton>
     <br />
     <br />
-    <asp:GridView ID="grdInstalaciones" runat="server">
+    <asp:GridView ID="grdInstalaciones" runat="server" OnSelectedIndexChanged="grdInstalaciones_SelectedIndexChanged">
     </asp:GridView>
+    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="btnVolver" runat="server" PostBackUrl="~/Centro/Inicio.aspx" Text="Volver" />
 </form>
 
 

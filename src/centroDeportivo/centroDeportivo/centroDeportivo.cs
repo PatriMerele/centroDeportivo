@@ -37,5 +37,10 @@ namespace centroDeportivo
         {
             reservas.Add(unaReserva);
         }
+
+        public void AgregarCuotaSocio(Cuota unaCuota, Socio unSocio)
+        {
+            unSocio.cuotasPagas.Add(unaCuota);
+        }
     }
 }
