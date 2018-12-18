@@ -33,7 +33,7 @@
     <asp:DropDownList ID="ddlSocio" runat="server">
     </asp:DropDownList>
     <p>
-        <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" Width="82px" />
+        <asp:Button ID="btnCancelar" runat="server" PostBackUrl="~/Centro/Articulos.aspx" Text="Cancelar" Width="82px" />
 &nbsp;&nbsp;
         <asp:Button ID="btnAceptar" runat="server" OnClick="btnAceptar_Click" Text="Aceptar" Width="72px" />
     </p>

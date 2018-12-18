@@ -14,6 +14,8 @@ namespace SistemaDeReservas.web.Centro
         //CentroDeportivo cd = new CentroDeportivo();
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack) { 
+            
             ddlArticulo.Items.Clear();
             ddlInstalacion.Items.Clear();
             ddlSocio.Items.Clear();
@@ -34,7 +36,8 @@ namespace SistemaDeReservas.web.Centro
                 {
                     ddlSocio.Items.Add(new ListItem { Value = socio.nroSocio.ToString(), Text = socio.nombre });
                 }
-            }
+             }
+          }
         }
 
         protected void btnAceptar_Click(object sender, EventArgs e)
