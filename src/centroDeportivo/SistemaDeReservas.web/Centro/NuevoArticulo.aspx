@@ -7,7 +7,7 @@
     <br />
     <asp:Label ID="lblNombreArticulo" runat="server" Text="Nombre de articulo"></asp:Label>
 &nbsp;&nbsp;&nbsp;
-    <asp:TextBox ID="txtNombreArticulo" runat="server"></asp:TextBox>
+    <asp:TextBox ID="txtNombreArticulo" runat="server" ></asp:TextBox>
     <br />
     <br />
     <asp:Label ID="lblNroArticulo" runat="server" Text="Numero de articulo"></asp:Label>

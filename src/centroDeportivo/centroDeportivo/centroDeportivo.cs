@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace centroDeportivo
 {
-    public class centroDeportivo
+    public class CentroDeportivo
     {
         public List<Articulo> articulos { get; set; }
         public List<Instalacion> instalaciones { get; set; }
         public List<Reserva> reservas { get; set; }
         public List<Socio> socios { get; set; }
 
-        public centroDeportivo()
+        public CentroDeportivo()
         {
             articulos = new List<Articulo>();
             instalaciones = new List<Instalacion>();

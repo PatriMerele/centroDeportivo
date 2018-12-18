@@ -21,5 +21,7 @@ namespace SistemaDeReservas.web.Centro
                 odb.Store(articulo);
             }
         }
+
+        
     }
 }

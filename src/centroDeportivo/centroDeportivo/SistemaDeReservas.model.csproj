@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Articulo.cs" />
-    <Compile Include="centroDeportivo.cs" />
+    <Compile Include="CentroDeportivo.cs" />
     <Compile Include="Cuota.cs" />
     <Compile Include="DomicilioSocio.cs" />
     <Compile Include="Instalacion.cs" />
